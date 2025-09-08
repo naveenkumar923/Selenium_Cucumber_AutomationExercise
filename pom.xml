@@ -62,6 +62,8 @@
                         <include>**/*CukesRunner.java</include>
                         <!--   <include>**/*FailedTestRunner.java</include>-->
                     </includes>
+                    <parallel>methods</parallel>
+                    <threadCount>1</threadCount>
                 </configuration>
             </plugin>
             <plugin>

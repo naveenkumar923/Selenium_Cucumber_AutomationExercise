@@ -1,7 +1,7 @@
 @regression
 Feature: Login
 
-  @smoke @login1
+  @smoke @login1 @mnk1
   Scenario: Login User with correct email and password
     Given The user is on the home page
     When The user clicks "Signup / Login" menu button
