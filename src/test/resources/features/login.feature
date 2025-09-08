@@ -12,7 +12,7 @@ Feature: Login
     When The user clicks Delete Account button
     Then Verify that ACCOUNT DELETED! is visible
 
-  @smoke @login2
+  @smoke @login2 @mnk2
   Scenario: Login User with incorrect email and password
     Given The user is on the home page
     When The user clicks "Signup / Login" menu button
